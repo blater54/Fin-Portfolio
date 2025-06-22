@@ -1,0 +1,9 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(to bottom, #007BFF, #0047AB); /* Blue gradient */
+  color: white;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
