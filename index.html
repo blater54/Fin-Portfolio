@@ -1,140 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Team Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Unit Price Prediction Project</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      margin: 40px;
+      background-color: #f9f9f9;
       color: #333;
+      line-height: 1.6;
     }
-    header {
-      background: #0077cc;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-      position: relative;
+    h1, h2 {
+      color: #2a2a2a;
     }
-    header h1 {
-      margin: 0;
+    .section {
+      margin-bottom: 30px;
     }
-    .home-button {
-      display: inline-block;
-      margin-top: 15px;
-      background-color: white;
-      color: #0077cc;
-      padding: 10px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    .home-button:hover {
-      background-color: #e0e0e0;
-    }
-    .team {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      padding: 40px 20px;
-    }
-    .member {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin: 20px;
-      padding: 20px;
-      flex: 1 1 300px;
-      max-width: 350px;
-    }
-    .member img {
-      width: 100%;
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    .member h2 {
-      color: #0077cc;
-      margin-top: 15px;
-    }
-    .member a {
-      color: #0077cc;
-      text-decoration: none;
-    }
-    .project {
-      background: #f9f9f9;
-      padding: 10px;
+    ul {
       margin-top: 10px;
-      border-left: 4px solid #0077cc;
-    }
-    footer {
-      text-align: center;
-      background: #333;
-      color: white;
-      padding: 20px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Team Portfolio</h1>
-  <p>Analysts | Applied Math / Statistics Graduates | Project Builders</p>
-  <a href="https://github.com/dsrichard97/Unit-Cost-Reduction-Tracker" class="home-button"> Home</a>
-</header>
+  <h1>Unit Price Prediction Project</h1>
 
-<section class="team">
-  <!-- Member 1 -->
-  <div class="member">
-    <img src="https://raw.githubusercontent.com/blater54/Fin-Portfolio/main/Richard_Diaz.jpg" alt="Richard Diaz">
-    <h2>Richard Diaz</h2>
-    <p><strong>Role:</strong> Financial Analyst</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/dsrichard97" target="_blank">https://github.com/dsrichard97</a></p>
-    <p><strong>About Me:</strong> I specialize in data cleaning and predictive modeling. My goal is to uncover trends and deliver actionable business insights.</p>
-    <p><a href="https://github.com/blater54/Fin-Portfolio/blob/main/Richard_____Diazdeleon__New_Resume___Copy___Copy_.pdf" target="_blank">📄 View Resume</a></p>
-
-    <div class="project">
-      <h4>Credentials</h4>
-      <p><strong>Bachelor Degree:</strong> Cal State University, Fullerton<br><br> 
-         <strong>Master Degree:</strong> Cal State University, Long Beach</p>
-    </div>
+  <div class="section">
+    <h2>About</h2>
+    <p>
+      This project aims to predict future unit prices based on average hourly rates, materials, and overhead inputs. 
+      Data was collected from <strong>FRED (Federal Reserve Economic Data)</strong>, where we track commodity prices. 
+      The goal is to create a "WHAT IF" scenario on the supply chain side to provide insights and, hopefully, improvements.
+    </p>
   </div>
 
-  <!-- Member 2 -->
-  <div class="member">
-    <img src="https://raw.githubusercontent.com/blater54/Fin-Portfolio/main/Raymond%20Chau.jpg" alt="Raymond Chau">
-    <h2>Raymond Chau</h2>
-    <p><strong>Role:</strong> Business Analyst</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/blater54" target="_blank">https://github.com/blater54</a></p>
-    <p><strong>About Me:</strong> I focus on visualization and stakeholder communication. I love turning complex data into simple stories.</p>
-    <p><a href="resume2.pdf" target="_blank">📄 View Resume</a></p>
-
-    <div class="project">
-      <h4>Credentials</h4>
-      <p><strong>Bachelor Degree:</strong> California State Polytechnic University, Pomona<br><br>
-         <strong>Master Degree:</strong> Cal State University, Long Beach</p>
-    </div>
+  <div class="section">
+    <h2>KPI Dashboard</h2>
+    <p>A visualization of unit price breakdowns. Contains:</p>
+    <ul>
+      <li><strong>Unit Price Monthly Breakdown</strong>: ACT vs Budget trends, items used the most over the months.</li>
+      <li><strong>Item Breakdown</strong>: Which items are popular over the years.</li>
+      <li><strong>Commodity Breakdown</strong>: Commodity popularity and spending.</li>
+      <li><strong>Price Prediction</strong>: A forecast of unit price.</li>
+    </ul>
   </div>
-
-  <!-- Member 3 -->
-  <div class="member">
-    <img src="https://raw.githubusercontent.com/blater54/Fin-Portfolio/main/Andres_gonzalez.jpg" alt="Andres Gonzalez">
-    <h2>Andres Gonzalez</h2>
-    <p><strong>Role:</strong> Data Engineer</p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/OKcomputer626" target="_blank">https://github.com/OKcomputer626</a></p>
-    <p><strong>About Me:</strong> I'm passionate about building data pipelines and automating workflows for big data projects.</p>
-    <p><a href="https://github.com/blater54/Fin-Portfolio/blob/main/Andres%20Gonzalez%20Resume.pdf" target="_blank">📄 View Resume</a></p>
-
-    <div class="project">
-      <h4>Credentials</h4>
-      <p><strong>Bachelor Degree:</strong> California State Polytechnic University, Pomona<br><br>
-         <strong>Master Degree:</strong> Cal State University, Long Beach</p>
-    </div>
-  </div>
-</section>
 
 </body>
 </html>
+
